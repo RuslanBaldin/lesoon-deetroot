@@ -1,7 +1,12 @@
-/* .body {
+
+.body {
     width: 1159px;
     background: #D9D9D9;
     padding: 30px;
+
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
 }
 .box{
     width: 1082px;
@@ -20,9 +25,12 @@
 .image{
     width: 1082px;
     height: 468px;
-} */
+} 
 
-
+.text{
+    text-align: center;
+    color: #070707;
+}
 .container{
     max-width: 936px;
     margin: 0px auto;
@@ -34,34 +42,22 @@
     padding-bottom: 96px;
 }
 .portfolio__title{
-    font-family: 'Arial';
-    font-style: italic;
-    font-weight: 400;
     font-size: 34px;
     line-height: 39px;
-    text-align: center;
-    color: #070707;
     margin-bottom: 64px;
 }
-
 .portfolio__img {
     width: 936.24px;
     height: 510px;
     margin-bottom: 44px;
 }
 .portfolio__text{
-    font-family: 'Arial';
-    font-style: italic;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
     text-decoration-line: underline;
-    color: #070707;
     margin-bottom: 99px;
 }
 
-/* reebok */
 .reebok {
     background: #F6F6F6;
     padding-bottom: 90px;
@@ -71,46 +67,33 @@
     height: 522px;
 }
 .reebok__text{
-    font-family: 'Arial';
-    font-style: italic;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
     text-decoration-line: underline;
-    color: #070707;
     margin-top: 41px;
-
 }
-/* braun */
+
 .braun {
     background: #F6F6F6;
     padding-bottom: 560px ;
 }
-
 .braun__img {
     width: 936.24px;
     height: 522px;
 }
 .braun__text {
-    font-family: 'Arial';
-    font-style: italic;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
     text-decoration-line: underline;
-    color: #070707;
     margin-top: 45px;
 }
 
-/* footer */
 .footer__text {
-    font-family: 'Arial';
-    font-style: italic;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
     color: #828282;
-}
+} 
+
+
+
+
