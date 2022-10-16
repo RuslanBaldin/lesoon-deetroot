@@ -35,6 +35,7 @@ body,html{
 .header__li>a :hover{
     color: #070707; 
 }
+/* ======end header style====== */
 /* ======denis novik====== */
 .content{
     flex: 1 1 auto;
@@ -144,7 +145,7 @@ body,html{
 .reebok__link {
     padding: 45px 0px 99px 0px;
 }
-/* ======reebok====== */
+/* ======end reebok====== */
 /* ======braun====== */
 .braun {
     background: #F6F6F6;
