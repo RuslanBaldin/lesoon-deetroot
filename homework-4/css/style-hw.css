@@ -133,6 +133,9 @@ body,html{
     line-height: 21px;
     text-decoration-line: underline;
 }
+.link>a{
+    color: #070707;
+}
 /* ======and portfolio====== */
 /* ======reebok====== */
 .reebok {
