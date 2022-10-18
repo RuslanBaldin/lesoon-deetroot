@@ -11,6 +11,27 @@ body,html{
     height: 100%;
     overflow: hidden;
 }
+a{
+    color: #828282; 
+}
+a :hover{
+    color: #070707; 
+}
+.content{
+    flex: 1 1 auto;
+}
+.title{
+    font-size: 34px;
+    line-height: 39px;
+}
+.link{
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+}
+.link>a{
+    color: #070707;
+}
 
 /* ======header style====== */
 .header__container{
@@ -29,17 +50,8 @@ body,html{
     line-height: 21px;
     padding: 33px 0px;
 }
-.header__li>a{
-    color: #828282; 
-}
-.header__li>a :hover{
-    color: #070707; 
-}
 /* ======end header style====== */
 /* ======denis novik====== */
-.content{
-    flex: 1 1 auto;
-}
 .denis-novik__header {
     display: flex;
     justify-content: space-between;
@@ -59,12 +71,6 @@ body,html{
     font-size: 16px;
     line-height: 18px;
 }
-.denis-novik__language>a {
-    color: #070707;
-}
-.denis-novik__language>a :hover{
-    color: #828282; 
-}
 .dinis-novik__img {
     padding-bottom: 104px;
 }
@@ -73,10 +79,6 @@ body,html{
 .about-me {
     background: #F6F6F6;
     padding-bottom: 107px;
-}
-.title{
-    font-size: 34px;
-    line-height: 39px;
 }
 .about-me__title {
     padding: 120px 0px 18px 0px;
@@ -128,14 +130,6 @@ body,html{
 }
 .portfolio__link{
     padding: 44px 0px 99px 0px;
-}
-.link{
-    font-size: 18px;
-    line-height: 21px;
-    text-decoration-line: underline;
-}
-.link>a{
-    color: #070707;
 }
 /* ======and portfolio====== */
 /* ======reebok====== */
