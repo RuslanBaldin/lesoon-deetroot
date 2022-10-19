@@ -1,0 +1,173 @@
+
+body,html{
+    font-family: 'Arial';
+    font-style: italic;
+    color: #070707;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+a{
+    color: #828282; 
+}
+li :hover{
+    color: #070707; 
+}
+.content{
+    flex: 1 1 auto;
+}
+.title{
+    font-size: 34px;
+    line-height: 39px;
+}
+.link{
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+}
+.link>a{
+    color: #070707;
+}
+
+/* ======header style====== */
+.header__container{
+    border-bottom: 1px solid #828282;
+}
+.container {
+    max-width: 943px;
+    margin: 0px auto;
+    text-align: center;
+}
+.header__li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 33px 0px;
+}
+/* ======end header style====== */
+/* ======denis novik====== */
+.denis-novik__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 43px 0px 90px 0px;
+}
+.denis-novik__title {
+    font-size: 47.3392px;
+    line-height: 54px;
+}
+.denis-novik__text {
+    font-size: 18px;
+    line-height: 21px;
+}
+.denis-novik__language {
+    width: 50px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.dinis-novik__img {
+    margin-bottom: 104px;
+}
+/* ======end denis novik====== */
+/* ======about-me====== */
+.about-me {
+    background: #F6F6F6;
+    padding-bottom: 107px;
+}
+.about-me__title {
+    padding: 120px 0px 18px 0px;
+}
+.about-me__flex-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    width: 485.34px;
+    height: 218px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* ======end about-me====== */
+/* ======skils====== */
+.skills__title {
+    margin-top: 91px;
+}
+.skills__container>p{
+    margin: 69px 0px 84px 0px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.skills__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.skills__card>p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    margin: 23px 0px 41px 0px;
+}
+/* ======and skils====== */
+/* ======portfolio====== */
+.portfolio {
+    background: #F6F6F6;
+}
+.portfolio__title {
+    padding: 113px 0px 47px 0px;
+}
+.portfolio__link{
+    padding: 44px 0px 99px 0px;
+}
+/* ======and portfolio====== */
+/* ======reebok====== */
+.reebok {
+    background: #F6F6F6;
+}
+.reebok__link {
+    padding: 45px 0px 99px 0px;
+}
+/* ======end reebok====== */
+/* ======braun====== */
+.braun {
+    background: #F6F6F6;
+}
+.braun__link {
+    padding: 46px 0px 96px 0px;
+}
+/* ======end braun====== */
+/* ======footer====== */
+.footer__title {
+    margin: 114px 0px 20px 0px;
+}
+.footer__text{
+    margin: 20px 0px 29px 0px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.fotter__button{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #070707;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.footer__link {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 80px 0px 46px 0px;
+    margin: 0 auto;
+}
+.footer__text-footer{
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    margin-bottom: 123px;
+}
+/* ======end footer====== */

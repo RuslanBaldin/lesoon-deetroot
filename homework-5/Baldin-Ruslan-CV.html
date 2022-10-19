@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW01-CV</title>
+    <style>
+        .wrapper {
+            min-height: 100%;
+            overflow: hidden;
+        }
+        .container{
+            max-width: 1100px;
+            margin: 0px auto;
+        }
+        .info{
+            display: flex;
+            justify-content: space-between;
+        }
+        h1,h2{
+            color:rgb(23, 146, 169);
+        }
+        .preloader{
+            transform-origin: center;
+            transition: all 2s ease 0.5s;
+            width:30px;
+            cursor: pointer;
+        }
+        .preloader:hover{
+            transform: rotate(1800deg);
+        }
+        .li_image>li{
+            padding: 10px 0px 10px 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="title info">
+                <div class="name">
+                    <h1>Ruslan Baldin</h1>
+                    <p style="color:grey; margin-top: -20px;">JUNIOR FRONTEND DEVELOPER</p>
+                </div>
+                <div class="image_avatar">
+                    <img style="border-radius:50%; width: 150px; margin-left: -250px;" src="./img/1avatar1.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="container info">
+                <div class="info_left" style="width: 65%;">
+                    <h2>Summary</h2>
+                    <hr>
+                    <p>I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with Company to use my skills
+                        in coding, troubleshooting complex problems, and assisting in the timely completion of projects.</p>
+
+                    <h2>Experience</h2>
+                    <hr>
+                    <p>Student</p>
+
+                    <h2>Education</h2>
+                    <hr>
+                    <p><b>Beetroot Academy</b></p>
+                    <p>2022-2023</p>
+                    <p>Front-End Development</p>
+                    <br>
+                    <p><b>O.S. Popov Odessa National Academy of Telecommunications</b></p>
+                    <p>2015-2016</p>
+                    <p>Telecommunications Engineering</p>
+                    <br>
+                    <p><b>O.S. Popov Odessa National Academy of Telecommunications</b></p>
+                    <p>2010-2015</p>
+                    <p>Specialist in Telecommunications Engineering</p>
+                    
+                    <h2>Projects</h2>
+                    <hr>
+                    <a style="display: block;" href="https://github.com/RuslanBaldin">Github</a>
+                    <a href="./img/anime.jpg"><img class="preloader" src="./img/preloader.png" alt="preloader"></a>
+                </div>
+                <div class="info_right" style="width: 30%;">
+                    <h2>Contact</h2>
+                    <hr>
+                    <ul class="li_image" style="list-style: none; padding-inline-start: 20px;">
+                        <li style="background: url(./img/message_icon.png)left no-repeat;"><a target="_blank" href="https://mail.google.com/">1rusbaldin9@gmail.com</a></li>
+                        <li style="background: url(./img/mobile_phone_icon.png)left no-repeat;">+380682721032</li>
+                        <li style="background: url(./img/pointer_icon2.png)left no-repeat;">Ukraine, Vinnitsya</li>
+                        <li style="background: url(./img/in_linkedin_icon.png)left no-repeat;"><a target="_blank" href="https://www.linkedin.com/in/ruslan-baldin-4a6056253/">IN Ruslan Baldin</a></li>
+                        <li style="background: url(./img/logo-beetroot.jpg)left no-repeat;"><a href="index.html">HOME</a></li>
+                    </ul>
+                    
+                    <h2>Skills</h2>
+                    <hr>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS/BOOTSTRAP</li>
+                        <li>Javascript</li>
+                    </ul>
+                    
+                    <h2>Certification</h2>
+                    <hr>
+                    <a href="./img/cat.jpg"><img class="preloader" src="./img/preloader.png" alt="preloader"></a>
+                    
+                    <h2>Languages</h2>
+                    <hr>
+                    <p>Ukraine - Native</p>
+                    <p>English - Beginner</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
