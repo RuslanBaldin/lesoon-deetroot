@@ -1,0 +1,102 @@
+body,html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* загальні стилі  */
+.wrapper {
+    max-width: 1180px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+h1,h2 {
+    font-weight: 700;
+    color:rgb(23, 146, 169);
+}
+h1 {
+    font-size: 36px;
+    line-height: 39px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid grey ;
+}
+p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+span{
+    font-weight: 700;
+}
+li{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+a{
+    display: block;
+    margin-bottom: 15px;
+}
+.projects>a,.certification>a,.skills_content{
+    margin-left: 15px;
+}
+/* ===================== */
+/* logo__container */
+.logo__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    align-items: center;
+}
+.logo__text>p {
+    font-size: 18px;
+    color:grey;
+    margin-left: 0px;
+}
+.logo__image{
+    border-radius: 50%;
+    width: 150px;
+}
+/* end logo__container */
+/* main content */
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+/* end main content */
+/* content__left */
+.content__left{
+    width: 65%;
+}
+/* end content__left */
+/* content__right */
+.content__right{
+    width: 30%;
+}
+/* end content__right */
+/* contact__image */
+.contact__image>li{
+    padding-left: 30px;
+}
+.contact__image{
+    margin-right: -20px;
+}
+.message {
+    background: url(../img/message_icon.png) left no-repeat;
+}
+.mobile {
+    background: url(../img/mobile_phone_icon.png)left no-repeat;
+}
+.pointer {
+    background: url(../img/pointer_icon2.png)left no-repeat;
+}
+.linkedin {
+    background: url(../img/in_linkedin_icon.png)left no-repeat;
+}
+.home {
+    background: url(../img/logo-beetroot.jpg)left no-repeat;
+}
+/*end contact__image */
