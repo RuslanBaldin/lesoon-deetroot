@@ -1,0 +1,114 @@
+*{transition: all .1s ease-in;}
+body,html{
+    font-family: 'Roboto';
+    background: #3B3F45;
+    border: 10px solid #FFFFFF;
+    height: 100%;
+}
+p{
+    display: inline;
+}
+.wrapper{
+    
+}
+.container{
+    width: 534px;
+    margin: 0 auto;
+}
+/* header */
+.header, .footer {
+    background: #4A4F56;
+    color: #FF8984;
+    text-align: center;
+}
+.header{
+    padding: 19px 0px 12px 0px;
+}
+.header__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.header__text {
+    font-size: 16px;
+    line-height: 19px;
+}
+/* end header */
+/* form */
+.form {
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+input {
+    margin: 12px 16px 14px 12px;
+}
+.form__item {
+    background-color: #88839E;
+    height: 45px;
+}
+.form__checkbox-text{
+    font-size: 18px;
+    line-height: 21px;
+}
+.form__checkbox-description {
+    font-size: 11px;
+    line-height: 13px;
+    padding-left: 3px;
+}
+.form__item:nth-child(even) {
+    background: #7A7593;
+}
+.form__item:hover {
+    border-bottom: 3px solid #FFFFFF;
+    border-top: 3px solid #FFFFFF;
+    background: #625E77;
+}
+.form__item:active {
+    background:  #FF8984;
+}
+input[type="checkbox"]:checked + label{
+    color: #9B96AC;
+    text-decoration: line-through;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.form__checkbox-description::before{
+    content: "(";
+}
+.form__checkbox-description::after{
+    content: ")";
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+label{
+    padding-left: 20px;
+}
+label::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fbfbfb;
+    vertical-align: middle;
+    margin: 12px 16px 14px 0px;
+}
+input[type="checkbox"]:checked + label:before{
+    content: "V";
+    color: black;
+}
+/* end form */
+/* footer */
+.footer {
+    max-width: 534px;
+    min-height: 45px;
+    margin: 45px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__text {
+    font-size: 18px;
+    line-height: 21px;
+}
+/* end footer */

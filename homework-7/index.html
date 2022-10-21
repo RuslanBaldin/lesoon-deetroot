@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HW07</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header__title">CSS Dinner Shopping List</h1>
+            <p class="header__text">Let’s go to the mall!</p>
+        </header>
+        <main class="container">
+            <form class="form">
+                <div class="form__item">
+                    <input id="term1" type="checkbox" name="term1" value="yes"> 
+                    <label class="form__checkbox-text" for="term1">A lot of pickles <span class="form__checkbox-description">for the next lessons about CSS</span></label>
+                </div>
+                <div class="form__item">
+                    <input id="term2" type="checkbox" name="term2" value="yes">
+                    <label class="form__checkbox-text" for="term2">10 apples<span class="form__checkbox-description">for more CSS manipulations</span></label>
+                </div>
+                <div class="form__item">
+                    <input id="term3" type="checkbox" name="term3" value="yes">
+                    <label class="form__checkbox-text" for="term3">20 oranges<span class="form__checkbox-description">because they are awesome</span></label>
+                </div>
+                <div class="form__item">
+                    <input id="term4" type="checkbox" name="term4" value="yes">
+                    <label class="form__checkbox-text" for="term4">13 plates<span class="form__checkbox-description">hm... they always dissapear</span></label>
+                </div>            
+                <div class="form__item">
+                    <input id="term5" type="checkbox" name="term5" value="yes">
+                    <label class="form__checkbox-text" for="term5">15 bentos<span class="form__checkbox-description">for the next lessons about CSS</span></label>
+                </div>
+                <div class="form__item">
+                    <input id="term6" type="checkbox" name="term6" value="yes">
+                    <label class="form__checkbox-text" for="term6">1 bottle of Sake<span class="form__checkbox-description">for my friends</span></label>
+                </div>
+            </form>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">Bon appetit :)</p>
+        </footer>
+    </div>
 </body>
 </html>
