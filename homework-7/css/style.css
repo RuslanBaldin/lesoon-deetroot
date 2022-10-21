@@ -12,7 +12,7 @@ p{
     
 }
 .container{
-    width: 534px;
+    max-width: 534px;
     margin: 0 auto;
 }
 /* header */
