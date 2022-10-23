@@ -97,7 +97,7 @@ a:focus,a:active{outline:none;}
 li>a:hover{
     color: #FF9900;
 }
-.htader__button {
+.hader__button {
     display: flex;
 }
 .btn_left {
