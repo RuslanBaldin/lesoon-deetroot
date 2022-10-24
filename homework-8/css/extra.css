@@ -1,24 +1,3 @@
-/* // Functions first */
-@import "../node_modules/bootstrap/scss/functions";
-
-/* // Variable overrides second */
-/* $primary: #900;
-$enable-shadows: true;
-$prefix: "mo-"; */
-
-/* // Required Bootstrap imports */
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/maps";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-
-/* // Optional components */
-@import "../node_modules/bootstrap/scss/utilities";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/containers";
-@import "../node_modules/bootstrap/scss/grid";
-@import "../node_modules/bootstrap/scss/helpers";
-@import "../node_modules/bootstrap/scss/utilities/api";
 
 *{
     padding: 0;
@@ -29,4 +8,86 @@ img{
     width: 100%;
     display: block;
 }
-
+body{
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.wrapper {
+    min-height: 100vh;
+    background-color: blue;
+}
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header {
+    font-size: 21px;
+    line-height: 25px;
+    padding-top: 5%;
+}
+.ba-cities{
+    max-width: 65%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 0px;
+}
+li {
+    display: inline-block;
+    font-size: 16px;
+    max-width: 100%;
+    min-height: 15vh;
+    margin-bottom: -10px;
+    border: 2px solid #FFFFFF;
+}
+.ba-cities li:first-child{
+    background: #3399CC;
+    width: 50%;
+}
+.ba-cities li:last-child{
+    background: #666699;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.ba-cities li:nth-child(2){
+    background: #33CCCC;
+    width: 25%;
+}
+.ba-cities li:nth-child(3){
+    background: #996699;
+    width: 25%;
+}
+.ba-cities li:nth-child(4){
+    background: #C24747;
+    width: 25%;
+}
+.ba-cities li:nth-child(5){
+    background: #E2674A;
+    width: 25%;
+}
+.ba-cities li:nth-child(6){
+    background: #FFCC66;
+    width: 25%;
+}
+.ba-cities li:nth-child(7){
+    background: #99CC99;
+    width: 25%;
+}
+.ba-cities li:nth-child(8){
+    background: #669999;
+    width: 25%;
+}
+.ba-cities li:nth-child(9){
+    background: #CC6699;
+    width: 50%;
+}
+.ba-cities li:nth-child(10){
+    background: #339966;
+    width: 25%;
+}
+.footer>p{
+    font-size: 16px;
+    line-height: 19px;
+}
