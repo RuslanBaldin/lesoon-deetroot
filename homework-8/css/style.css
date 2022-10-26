@@ -139,9 +139,12 @@ li>a:hover{
 }
 /* =====end first-screen===== */
 /* =====features===== */
-.features__container{
+.features{
     background: url("../img/bg-tests.png")  50%/ cover no-repeat;
+}
+.features__container{
     padding-bottom: 74px;
+    
 }
 .features__title{
     text-align: center;
