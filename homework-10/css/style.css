@@ -144,7 +144,7 @@ a:hover{
     font-size: 18px;
     line-height: 22px;
 }
-.footer__link-image {
+.footer__social-networks {
     display: flex;
     gap: 10px;
 }
