@@ -110,7 +110,7 @@ a:hover{
     gap: 30px;
     flex-wrap: wrap;
 }
-.card__blue{
+.card__social-networks {
     display: flex;
     align-items: center;
     justify-content: center;
