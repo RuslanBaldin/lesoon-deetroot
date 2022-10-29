@@ -121,6 +121,7 @@ a:hover{
 }
 .card__name {
     margin-top: 20px;
+    color: #282528;
 }
 .card__profession {
     font-weight: 300;
