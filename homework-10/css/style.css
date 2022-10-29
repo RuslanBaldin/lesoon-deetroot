@@ -91,9 +91,12 @@ a:hover{
 }
 .hero__taitel::after{
     content: "";
+    display: block;
     width: 45px;
     height: 4px;
     background: #DDDBDB;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .hero__text {
     max-width: 570px;
