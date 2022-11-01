@@ -57,6 +57,7 @@ html, body{
     transform: translate(-50%, 0);
     background: white;
    /*  box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.75); */
+   z-index: 2;
 }
 .header__btn{
     border: none;
