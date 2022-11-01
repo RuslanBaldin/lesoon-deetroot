@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    /* width: 100%; */
+    display: block;
+}
+ul li{
+    list-style:none;
+}
+a:hover{text-decoration:none;}
+a,a:visited{text-decoration:none;}
+a:focus,a:active{outline:none;}
+a{
+    color:#000000;
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+h2{
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+html, body{
+    color: #000000;
+    background: #ffff;
+}
+.wrapper{
+    position: relative; 
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* ===============header==================== */
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: white;
+   /*  box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.75); */
+}
+.header__btn{
+    border: none;
+    background: transparent;
+    display: block;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+}
+.header__bread-crumbs {
+    display: flex;
+    margin-left: -450px;
+}
+.header__bread-crumbs li:last-child::before{
+    content: "/";
+    padding: 0px 10px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+/* ===============end header==================== */
+.main-text__container{
+    display: flex;
+    gap: 30px;
+    margin-top: 160px;
+    background: url(../img/bg-picture.png) 550px 0 no-repeat; 
+}
+.main-text__container p {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.main-text__chapter p:last-child{
+    margin-bottom: 0px;
+}
+/* ===============side bar==================== */
+.side-bar__nav {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 385px;
+    position: sticky;
+    top:80px;
+}
+.side-bar__nav a {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BDBDBD;
+}
+/* ===============end side bar==================== */
+.main-text__section-row{
+    display: flex;
+    flex-direction: column;
+}
+.main-text__chapter::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 8px;
+    background: #000000;
+}
+.main-text__chapter{
+    margin-bottom: 70px;
+}
+/* ===============chapter1==================== */
+.chapter1 span{
+text-decoration: underline;
+}
+.chapter1 h2{
+   /*  margin-top: 40px; */
+}
+/* ===============chapter1==================== */
+.chapter3 p span:first-child{
+    text-decoration: underline;
+}
+.chapter3 p:nth-child(5)::after{
+    content: "<Text>Hello, I am your cat!</Text>.";
+    display: inline-block;
+    background: #DADADA;
+}
+.chapter3 p:nth-child(6)::after{
+    content: "<Text>";
+    display: inline-block;
+    background: #DADADA;
+}
+.chapter3 p span:nth-child(2){
+    background: #DADADA;
+}
+/* ===============logos tiles==================== */
+.logos-tiles__container{
+    padding-top: 170px;
+}
+.logos-tiles__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 90px;
+    border-top: 2px solid #BDBDBD;
+    border-bottom: 2px solid #BDBDBD;
+    padding: 20px 0px;
+}
+.logos-tiles__container h2::before{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 8px;
+    background: #000000;
+    margin: 0px 20px 10px 0px ;
+}
+.logos-tiles__row svg{
+    background:#E6E6E6;
+    transition: transform 1s, background-color 1s ease-in-out;
+    transform: translate(0);
+    transform: scale(1);
+}
+.logos-tiles__row svg:hover{
+    background: #000000;
+    color:#ffffff;
+}
+
+
