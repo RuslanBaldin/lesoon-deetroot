@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+}
+.wrapper{
+    overflow: hidden;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+
+}
+.header{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.header__text{
+    max-width: 380px;
+    margin: 16px 0 24px;
+}
+.header__planet{
+    width: 800px;
+    position: absolute;
+    bottom: -90px;
+    right: -110px;
+    z-index: 2;
+    animation: planet 6s infinite;
+    
+}
+@keyframes planet{
+    0%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(23px, -30px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+.header__cursor{
+    width: 150px;
+    position: absolute;
+    bottom: 140px;
+    right: 220px;
+    z-index: 2;
+    animation: cursor 6s infinite;
+}
+@keyframes cursor{
+    0%{
+        width: 150px;
+        transform: rotate(45deg);
+    }
+    15%{
+        width: 150px;
+        transform: rotate(90deg);
+    }
+    30%{
+        width: 150px;
+        transform: rotate(135deg);
+    }
+    45%{
+        width: 150px;
+        transform: rotate(180deg);
+    }
+    60%{
+        width: 150px;
+        transform: rotate(225deg);
+    }
+    75%{
+        width: 150px;
+        transform: rotate(270deg);
+    }
+    90%{
+        width: 150px;
+        transform: rotate(315deg);
+    }
+    100%{
+        width: 150px;
+        transform: rotate(360deg);
+    }
+}
+
+.doodle{
+    width: 70px;
+    animation: doodle 6s infinite;
+    
+}
+@keyframes doodle{
+    0%{
+        width: 50px;
+        transform: rotateZ(90deg);
+    }
+    50%{
+        width: 150px;
+        transform: rotateZ(180deg);
+    }
+    75%{
+        width: 100px;
+        transform: rotateZ(270deg);
+    }
+    50%{
+        width: 200px;
+        transform: rotateZ(360deg);
+    }
+}
+.doodle-1{
+    position: absolute;
+    bottom: 420px;
+    right: 600px;
+}
+.doodle-2{
+    position: absolute;
+    bottom: 200px;
+    right: 530px;
+    z-index: 1;
+}
+.doodle-3{
+    position: absolute;
+    bottom: 0px;
+    right: 600px;
+}
+    </style>
+
+    
+
+</head>
+<body>
+    <div class="wrapper">
+        <section class="header">
+            <div class="container">
+                <h1 class="header__title">Lorem, ipsum.</h1>
+                <p class="header__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat possimus suscipit amet cupiditate deleniti a repellendus voluptates corrupti minus impedit quos quia, asperiores molestias est aspernatur numquam enim corporis magni!</p>    
+                <button class="header__btn">start</button>
+
+                <img class="header__planet" src="./img/planet.png" alt="">
+                <img class="header__cursor"  src="./img/cursor.png" alt="">
+                <img class="doodle doodle-1" src="./img/1.png" alt="">
+                <img class="doodle doodle-2" src="./img/doodle-2.png" alt="">
+                <img class="doodle doodle-3" src="./img/doodle-3.png" alt="">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

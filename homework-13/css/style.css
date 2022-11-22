@@ -125,6 +125,7 @@ p{
     }
     .hero__title {
         max-width: 570px;
+        padding-top: 30px;
     }
 }
 
@@ -133,6 +134,9 @@ p{
         min-height: 500px;
         padding-top: 70px;
     } 
+    .hero__title {
+        padding-top: 30px;
+    }
 }
 /* section hero end */
 
